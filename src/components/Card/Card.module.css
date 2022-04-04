@@ -1,0 +1,21 @@
+.cardContainer {
+  border-radius: 5;
+}
+.nameContainer {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.imgContainer {
+  margin-top: 30px; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  text-align: center;
+}
+.descContainer {
+  padding-left: 5px;
+  margin-top: 10px; 
+  margin-left: auto;
+  margin-right: auto;
+}
