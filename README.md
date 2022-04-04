@@ -10,7 +10,7 @@ In the project directory, run:
 
 ### `npm i`
 
-to install dependencies and then
+to install the dependencies and then
 
 ### `npm start`
 
