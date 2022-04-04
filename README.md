@@ -1,8 +1,16 @@
 # Marvel Character Search
 
+Requirements:
+
+- Have Git and npm installed
+
 Run 'git clone https://github.com/urosmarolt/marvel.git' command in your terminal
 
-In the project directory, you can run:
+In the project directory, run:
+
+### `npm i`
+
+to install dependencies and then
 
 ### `npm start`
 
