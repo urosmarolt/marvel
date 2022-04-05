@@ -4,8 +4,8 @@ import CryptoJS from "crypto-js"
 export default async function fetchAPIData(searchQuery) {
     let uri = ""
     searchQuery? uri = `https://gateway.marvel.com//v1/public/characters?nameStartsWith=${searchQuery}&limit=20` : uri = `https://gateway.marvel.com//v1/public/characters?limit=20`
-    const PRIV_KEY = "e829b78f195a670e027a3746447330c3c8a5e970";
-    const PUBLIC_KEY = "9cc2a3c89a75533e558d5440a34a092f"; 
+    const PRIV_KEY = process.env.REACT_APP_MARVEL_PRIV_KEY;
+    const PUBLIC_KEY = process.env.REACT_APP_MARVEL_PUBLIC_KEY; 
     let ts = new Date().getTime();
     const hash = CryptoJS.MD5(ts + PRIV_KEY + PUBLIC_KEY).toString();
 
