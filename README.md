@@ -12,9 +12,9 @@ In the project directory, run:
 
 to install the dependencies and then
 
-create a local environment file 
+create a local environment file (in the root of the project)
 
-### vim .env.local
+### `vim .env.local`
 
 add both public and private Marvel API keys (repalce with yours)
 
