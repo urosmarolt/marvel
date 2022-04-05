@@ -12,6 +12,17 @@ In the project directory, run:
 
 to install the dependencies and then
 
+create a local environment file 
+
+### vim .env.local
+
+add both public and private Marvel API keys (repalce with yours)
+
+REACT_APP_MARVEL_PRIV_KEY = 12345
+REACT_APP_MARVEL_PUBLIC_KEY = 12345
+
+save and run 
+
 ### `npm start`
 
 Runs the app in the development mode.\
