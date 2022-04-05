@@ -18,9 +18,8 @@ create a local environment file (in the root of the project)
 
 add both public and private Marvel API keys (replace with yours)
 
-REACT_APP_MARVEL_PRIV_KEY = 12345
-
-REACT_APP_MARVEL_PUBLIC_KEY = 12345
+`REACT_APP_MARVEL_PRIV_KEY = 12345
+REACT_APP_MARVEL_PUBLIC_KEY = 12345`
 
 save and run 
 
